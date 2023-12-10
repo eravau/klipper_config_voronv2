@@ -35,13 +35,3 @@ type = web
 repo = fluidd-core/fluidd
 path = ~/fluidd
 
-[timelapse]
-autorender = True
-constant_rate_factor = 23
-output_framerate = 30
-output_path = ~/timelapse/
-frame_path = /tmp/timelapse/
-time_format_code = %Y%m%d_%H%M
-snapshoturl = http://localhost:8080/?action=snapshot
-pixelformat = yuv420p
-
